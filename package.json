@@ -1,0 +1,19 @@
+{
+  "name": "wallaby-import-const-enum-bug",
+  "version": "1.0.0",
+  "description": "A reproduction of a wallaby bug where importing a const enum does not work",
+  "main": "lib/foo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "greyepoxy",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jasmine": "^3.3.4"
+  },
+  "dependencies": {
+    "jasmine": "^3.3.1",
+    "bar": "file:./local_modules/bar"
+  }
+}
